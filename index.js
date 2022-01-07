@@ -39,7 +39,6 @@ let todos = [
     completed: false,
   },
 ];
-
 app.get("/", (req, res) => res.send("Welcome to todo-api"));
 
 app.get("/todos", (req, res) => res.send(todos));

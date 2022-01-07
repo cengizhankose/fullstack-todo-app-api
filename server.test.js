@@ -1,5 +1,5 @@
 const request = require("supertest");
-const server = require("./server");
+const server = require("./index");
 
 describe("GET /todos", () => {
   test("should respond with a 200 status code", async () => {
